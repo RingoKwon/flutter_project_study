@@ -6,12 +6,10 @@ void main() {
     home: Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              const Color.fromARGB(255, 59, 17, 131), 
-              Color.fromARGB(255, 120, 25, 114)
-            ]
-          ),
+          gradient: LinearGradient(colors: [
+            Color.fromARGB(255, 59, 17, 131),
+            Color.fromARGB(255, 120, 25, 114)
+          ]),
         ),
         child: const StartScreen(),
       ),
